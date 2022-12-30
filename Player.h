@@ -6,9 +6,12 @@ private:
 	int posY_;
 	int speedX_;
 	int radius_;
+	int gra_;
+	int graflag_;
+	int gracool_;
 public:
 	void Initialize();
-	void Update();
+	void Update(char* keys, char* preKeys);
 	void Draw();
 };
 
